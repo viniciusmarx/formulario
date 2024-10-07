@@ -5,22 +5,7 @@
 
     .texto,
     .formulario {
-        max-width: 60%;
-
-    }
-
-    .formulario .container-input {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .formulario .input {
         max-width: 70%;
-    }
 
-    .formulario .botao {
-        max-width: 70%;
     }
 }
