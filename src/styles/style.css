@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+main {
+    background: url(../images/background.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-family: "Roboto", sans-serif;
+}
+
+.texto {
+    width: 300px;
+    color: #fff;
+}
+
+.texto .titulo {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23.44px;
+    margin-bottom: 11px;
+}
+
+.texto .paragrafo {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17.58px;
+}
+
+.formulario {
+    width: 340px;
+    height: 430px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    gap: 18px;
+}
+
+.formulario .container-input {
+    min-height: 45px;
+}
+
+.formulario .input {
+    width: 298px;
+    height: 35px;
+}
+
+.formulario .container-input:first-child {
+    margin-top: 20px;
+}
+
+.formulario .container-input.textarea {
+    height: 113px;
+}
+
+.formulario #mensagem {
+    height: 100px;
+}
+
+.formulario .input::placeholder {
+    padding: 9px;
+    font-family: "Roboto";
+}
+
+.formulario .mensagem {
+    align-self: flex-start;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.formulario .botao {
+    width: 298px;
+    height: 35px;
+    background-color: #3CCC87;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.valido {
+    border: 1px solid #3CCC87;
+}
+
+.invalido {
+    border: 1px solid #F52E2E;
+}
+
+.aviso {
+    font-size: 8px;
+    line-height: 9.38px;
+    color: #F52E2E;
+    font-weight: 400;
+}
