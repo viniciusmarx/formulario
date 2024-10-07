@@ -55,6 +55,7 @@ main {
 .formulario .input {
     width: 298px;
     height: 35px;
+    padding: 9px;
 }
 
 .formulario .container-input:first-child {
@@ -70,7 +71,6 @@ main {
 }
 
 .formulario .input::placeholder {
-    padding: 9px;
     font-family: "Roboto";
 }
 
